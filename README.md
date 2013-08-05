@@ -1,4 +1,4 @@
 cpp-tricks
 ==========
 
-landing page of cpp-tricks
+Website of cpp tricks

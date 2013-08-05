@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+*{
+margin:0;
+padding:0;
+}
+
+html { 
+  background: url(cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+overflow:hidden;
+font-size:1em;
+}
+
+.container
+{
+position:absolute;
+top:40%;
+width:100%;
+background:rgba(0,0,0,0.4);
+padding:20px 20px;
+color:#fff;
+border: 1px solid #e2e2e2;
+border-radius:2px;
+font-family:Oswald, sans-serif;
+text-align:center;
+}
+
+
+.container > h1
+{
+line-height:4.9rem;
+text-shadow:2px 2px rgba(0,0,0,0.7);
+text-transform:uppercase;
+font-weight:normal;
+font-size:4.5rem;
+}
+
+.tagline
+{
+text-shadow:1px 1px rgba(0,0,0,0.9);
+font-weight:normal;
+font-size:1.5rem;
+}
+
+.credits
+{
+width:100%;
+text-align:center;
+font-family:Lato, sans-serif;
+color:#fff;
+text-shadow:1px 1px #222;
+position:absolute;
+bottom:5px;
+}
+
+.credits span
+{
+display:block;
+}
+.id_credit-top
+{
+font-size:1rem;
+}
+
+.id_credit-content
+{
+font-size:2rem;
+}
+
+.id_credit-bottom
+{
+font-size:1rem;
+font-variant:small-caps;
+}
+
+
